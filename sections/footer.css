@@ -1,0 +1,42 @@
+#contact-us{
+    background-color: var(--color-purple);
+    text-align: center;
+    padding: 70px;
+    padding-top: 100px;
+}
+
+.contact-info{
+    padding-left: 370px;
+    padding-top: 40px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  
+    list-style: none;
+
+    margin: auto;
+}
+
+.foot-mail{
+    height: 17px;
+    width: 15px;
+    padding-top: 2px;
+}
+
+.foot-call{
+    height: 17px;
+    width: 90px;
+    padding-top: 2px;
+    padding-left: 75px;
+}
+
+.foot{
+    color: white;
+}
+
+.info{
+    color: white;
+    font-weight: lighter;
+    font-size: 15px;
+}

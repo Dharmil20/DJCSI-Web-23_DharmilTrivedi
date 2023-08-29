@@ -1,0 +1,39 @@
+#testimonials{
+    padding: 100px;
+}
+
+.testimonials__menu{
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+ .para{
+    text-align: left;
+    width: 300px;
+    color: var(--gray-100);
+    font-weight: 500;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.company-name{
+    width: 300px;
+    color: var(--gray-100);
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.testimonials__text{
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+h5{
+    padding-top: 10px;
+    padding-bottom: 0;
+    font-weight: 600;
+    font-size: 20px;
+}

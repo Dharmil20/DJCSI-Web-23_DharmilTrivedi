@@ -1,0 +1,31 @@
+.hero{
+    background-color: var(--color-purple);
+    height: 745px;
+}
+.hero__img{
+    position: relative;
+    text-align: right;
+    padding-top: 100px;
+}
+
+.hero__img img{
+    height: 550px;
+}
+
+.hero__text{
+    line-height: 1.5;
+    font-size: 32;
+}
+
+.hero__para{
+    line-height: 1.5;
+    color: var(--gray-100);
+    padding-top: 20px;
+}
+
+.hero__body{
+    position: relative;
+    bottom: 470px;
+    left: 100px;
+    color: white;
+}

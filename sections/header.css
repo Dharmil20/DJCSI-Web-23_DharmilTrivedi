@@ -1,0 +1,45 @@
+.header__nav{
+    display: flex;
+    overflow: hidden;
+}
+
+.header__logo{
+    flex: 1;
+    display: flex;
+
+    position: relative;
+    padding: 40px;
+    padding-top: 10px;
+    padding-left: 60px;
+}
+.header__logo img{
+  width: 120px;
+  height: 45px;
+}
+
+.header__menu{
+  padding: 20px;
+  padding-right: 60px;
+  padding-top: 5px;
+  flex: 1.235;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 34px;
+
+  list-style: none;
+}
+
+.header__menu li {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--gray-100);
+  cursor: pointer;
+}
+
+
+#contact{
+  font-weight: bold;
+  color: var(--color-white);
+  display: inline-flex;
+}

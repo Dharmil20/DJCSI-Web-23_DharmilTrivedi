@@ -1,0 +1,48 @@
+@import url("sections/header.css");
+@import url("sections/hero.css");
+@import url("sections/feature.css");
+@import url("sections/footer.css");
+@import url("sections/testimonials.css");
+
+:root {
+  --primary-color: #4118b3;
+  --secondary-color: #121212;
+
+  --black-200: #020202;
+  --black-300: #333333;
+  --black-400: #1f1e31;
+  --black-500: #555555;
+  --gray-100: #888888;
+
+  --color-white: #fff;
+  --color-purple: #4118b3;
+
+  --color-cream:#fcfafe;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Montserrat', sans-serif;
+}
+  
+  body {
+    max-width: 1386px;
+    margin: 0 auto;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none; 
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
